@@ -1,11 +1,3 @@
-:root{
-    --color-green:#31c48d;
-    --color-white:#fff;
-    --color-dark-gray: #33333d;
-    --color-medium-gray:#424250;
-    --color-light-gray:#d2d6dc;
-}
-
 html{
     height: 100vh;
 }
@@ -16,8 +8,8 @@ html{
 
 body{
     margin: 0;
-    background-color: var(--color-medium-gray);
-    color: var(--color-white);
+    background-color:#424250;
+    color:#fff;
     font-family:'Courier New', Courier, monospace;
     flex-direction: column;
     justify-content: space-between;
@@ -36,7 +28,7 @@ header{
 
 
 .counter{
-    background-color: var(--color-dark-gray);
+    background-color: #33333d;
 }
 
 .counter__value{
@@ -49,15 +41,15 @@ header{
     background: none;
     color:#ffffff8c;
     border-width: 0;
-    border-bottom: 1px solid var(--color-light-gray);
+    border-bottom: 1px solid #d2d6dc;
 }
 
 .counter__button{
     background: none;
     width: 50%;
     border-width: 0;
-    color:var(--color-white);
-    border-bottom:1px solid var(--color-light-gray);
+    color:#fff;
+    border-bottom:1px solid #d2d6dc;
     transition: transform 0.3s;
     transform: translateY(0);
 }
@@ -67,11 +59,11 @@ header{
 }
 
 .counter__button_first{
-    border-right: 1px solid var(--color-light-gray);
+    border-right: 1px solid #d2d6dc;
 }
 
 .counter__button:active{
-    background: var(--color-medium-gray);
+    background:#424250;
     transform: translateY(2%);
 }
 
@@ -85,14 +77,14 @@ header{
 
 .reset-overlay{
     text-align: center;
-    color: var(--color-dark-gray);
+    color: #33333d;
 }
 
 footer{
     text-align: center;
     line-height: 1.5rem;
-    background: var(--color-dark-gray);
-    color: var(--color-light-gray);
+    background: #33333d;
+    color:#d2d6dc;
     align-self: flex-end;
     padding: 1rem;
     font-size: 0.9rem;
