@@ -22,7 +22,6 @@ const ADD = 'ADD';
 const SUBTRACT = 'SUBTRACT';
 const RESET = 'RESET';
 
-// Step 3: Create Reducer
 const tallyReducer = (state = { count: 0 }, action) => {
     switch (action.type) {
         case ADD:
