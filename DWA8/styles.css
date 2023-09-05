@@ -40,8 +40,6 @@ option {
   }
 }
 
-/* header */
-
 .header {
   background-color: rgba(var(--color-force-dark), 0.9);
   position: sticky;
@@ -116,9 +114,7 @@ option {
   background-color: rgba(var(--color-force-light), 0.3);
 }
 
-/* grid */
-
-.list {
+list {
   padding-bottom: 10rem;
 }
 
@@ -197,8 +193,6 @@ option {
   opacity: 0.2;
 }
 
-/* preview */
-
 .preview {
   border-width: 0;
   width: 100%;
@@ -254,8 +248,6 @@ option {
 .preview__author {
   color: rgba(var(--color-dark), 0.4);
 }
-
-/* overlay */
 
 .overlay {
   position: fixed;
@@ -420,8 +412,6 @@ option {
   height: 100vh;
   width: 100vw;
 }
-
-/* backdrop */
 
 .backdrop {
   display: none;
