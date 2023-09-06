@@ -2,6 +2,9 @@
 
 ## Names and Provinces.
 
+const provinces = ['Western Cape', 'Gauteng', 'Northern Cape', 'Eastern Cape', 'KwaZulu-Natal', 'Free State']
+const names = ['Ashwin', 'Sibongile', 'Jan-Hendrik', 'Sifso', 'Shailen', 'Frikkie']
+
 * Use forEach to console log each name to the console. You are allowed to call console.log seven times.
 * Use forEach to console log each name with a matching province for example Ashwin (Western Cape). Note that you are only allowed to call console.log seven times.
 * Using map loop over all province names and turn the string to all uppercase. Log the new array to the console.
