@@ -1,22 +1,6 @@
-# Dynamic-Web-App
+In this challenge, we return to the very first Tally App example and recreate it entirely using the Lit Framework. Apart from indicating competency with the Lit Framework, I am required to consider the following explicit state that the counter can be in:
 
-SCENARIO: Increment the counter by one
-GIVEN the tally counter app is open
-AND the counter is at 0
-WHEN I click the "Add" button
-THEN the counter should display 1
+Default
+Minimum Reached
+Maximum Reached
  
-
-SCENARIO: Decrement the counter by one
-GIVEN the tally counter app is open
-AND the counter is at 1
-WHEN I click the "Subtract" button
-THEN the counter should display 0
- 
-
-SCENARIO: Resetting the Tally Counter
-GIVEN the tally counter app is open
-AND the counter value is 10
-WHEN I click on the "Reset" button
-THEN the counter value should change to 0
-AND a confirmation message should be displayed that the counter has been reset
