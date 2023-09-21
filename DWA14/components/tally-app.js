@@ -1,5 +1,3 @@
-/* eslint-disable class-methods-use-this */
-/* eslint-disable import/extensions */
 import { html, LitElement } from '../libs/lit-html.js';
 import './tally-header.js';
 import './tally-main.js';

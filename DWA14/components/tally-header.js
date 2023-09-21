@@ -1,5 +1,3 @@
-/* eslint-disable class-methods-use-this */
-/* eslint-disable import/extensions */
 import { html, css, LitElement } from '../libs/lit-html.js';
 
 class TallyHeader extends LitElement {
